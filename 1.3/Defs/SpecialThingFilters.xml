@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<SpecialThingFilterDef>
+    <defName>AllowStageBaby</defName>
+    <label>allow babies</label>
+    <description>Allow baby individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowStageBaby</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageBaby</workerClass>
+  </SpecialThingFilterDef>
+  
+  	<SpecialThingFilterDef>
+    <defName>AllowStageJuvenile</defName>
+    <label>allow juveniles</label>
+    <description>Allow juvenile individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowStageJuvenile</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageJuvenile</workerClass>
+  </SpecialThingFilterDef>
+  
+  	<SpecialThingFilterDef>
+    <defName>AllowStageAdult</defName>
+    <label>allow adults</label>
+    <description>Allow adult individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowStageAdult</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageAdult</workerClass>
+  </SpecialThingFilterDef>
+</Defs>
