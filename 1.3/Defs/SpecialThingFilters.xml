@@ -29,4 +29,48 @@
     <saveKey>AllowStageAdult</saveKey>
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageAdult</workerClass>
   </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowSterilized</defName>
+    <label>allow sterilized</label>
+    <description>Allow sterilized individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowSterilized</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowSterilized</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotSterilized</defName>
+    <label>allow not sterilized</label>
+    <description>Allow not sterilized individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotSterilized</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotSterilized</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowPregnant</defName>
+    <label>allow pregnant/fertilized</label>
+    <description>Allow pregnant or fertilized individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowPregnant</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowPregnant</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotPregnant</defName>
+    <label>allow not pregnant/fertilized</label>
+    <description>Allow not pregnant or fertilized individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotPregnant</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotPregnant</workerClass>
+  </SpecialThingFilterDef>
 </Defs>
