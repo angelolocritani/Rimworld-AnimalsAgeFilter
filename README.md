@@ -1,3 +1,4 @@
+[![Version](https://img.shields.io/badge/Rimworld-1.3-green.svg)](http://rimworldgame.com/)
 # Rimworld-AnimalsAgeFilter
  Animals' age filter mod for Rimworld
 
