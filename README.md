@@ -4,7 +4,7 @@
 # Rimworld-AnimalsAgeFilter
  Animals' age filter mod for Rimworld
 
-![AnimalsAgeFilterPreview](https://i.imgur.com/CsnaRiI.png)
+![AnimalsAgeFilterPreview](https://i.imgur.com/7MyF9fd.png)
 
 ![AnimalsAgeFilterExample](https://i.imgur.com/QxpG5MO.png)
 
