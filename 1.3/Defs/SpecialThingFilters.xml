@@ -73,4 +73,25 @@
     <saveKey>AllowNotPregnant</saveKey>
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotPregnant</workerClass>
   </SpecialThingFilterDef>
+  
+  <SpecialThingFilterDef>
+    <defName>AllowOverLifeExpectancy</defName>
+    <label>allow over life expectancy</label>
+    <description>Allow individuals older than their race's life expectancy.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowOverLifeExpectancy</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowOverLifeExpectancy</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotOverLifeExpectancy</defName>
+    <label>allow under life expectancy</label>
+    <description>Allow individuals younger than their race's life expectancy.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotOverLifeExpectancy</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotOverLifeExpectancy</workerClass>
+  </SpecialThingFilterDef>
 </Defs>
