@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>AnimalsAgeFilter</identifier>
+    <version>1.2.0</version>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/angelolocritani/Rimworld-AnimalsAgeFilter/main/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/latest</downloadUri>
+</Manifest>

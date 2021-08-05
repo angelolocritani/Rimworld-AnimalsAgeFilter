@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+		<defName>AnimalsAgeUpdateFeature</defName>
+		<modNameReadable>Animal's age filter</modNameReadable>
+		<modIdentifier>AnimalsAge</modIdentifier>
+		<linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>AnimalsAge_1.1</defName>
+		<assemblyVersion>1.1.0</assemblyVersion>
+		<content>Added filters for pregnancy/fertilization and sterilized status</content>
+		<linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.1.0</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>AnimalsAge_1.2</defName>
+		<assemblyVersion>1.2.0</assemblyVersion>
+		<content>Added filter for animals older than their race's life expectancy</content>
+		<linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.2.0</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
