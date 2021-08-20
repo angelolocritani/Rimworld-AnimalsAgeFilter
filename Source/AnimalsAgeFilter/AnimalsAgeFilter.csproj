@@ -26,18 +26,10 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\1.2\Assemblies\</OutputPath>
+    <OutputPath>..\..\1.3\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.2|AnyCPU'">
-    <OutputPath>..\..\1.2\Assemblies\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.3|AnyCPU'">
     <OutputPath>..\..\1.3\Assemblies\</OutputPath>
@@ -62,6 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnimalsAgeFilterMod.cs" />
+    <Compile Include="AgeFilter.cs" />
+    <Compile Include="LifeExpectancyFilter.cs" />
+    <Compile Include="PregnancyFilter.cs" />
+    <Compile Include="SterilizationFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
