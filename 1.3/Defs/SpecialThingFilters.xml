@@ -94,4 +94,27 @@
     <saveKey>AllowNotOverLifeExpectancy</saveKey>
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotOverLifeExpectancy</workerClass>
   </SpecialThingFilterDef>
+
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowCarrying</defName>
+    <label>allow carrying</label>
+    <description>Allow individuals that are carrying items.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowCarrying</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowCarrying</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotCarrying</defName>
+    <label>allow not carrying</label>
+    <description>Allow individuals that not are carrying items.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotCarrying</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotCarrying</workerClass>
+  </SpecialThingFilterDef>
 </Defs>

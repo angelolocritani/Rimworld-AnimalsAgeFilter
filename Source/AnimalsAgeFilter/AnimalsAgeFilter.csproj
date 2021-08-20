@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="AnimalsAgeFilterMod.cs" />
     <Compile Include="AgeFilter.cs" />
+    <Compile Include="InventoryFilter.cs" />
     <Compile Include="LifeExpectancyFilter.cs" />
     <Compile Include="PregnancyFilter.cs" />
     <Compile Include="SterilizationFilter.cs" />
