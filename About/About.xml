@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<packageId>arl85.AnimalsAgeFilter</packageId>
-	<name>Animals' age filter</name>
+	<name>More filters for animals' pen</name>
 	<author>arl85</author>
 	<url>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter</url>
 	<supportedVersions>
 		<li>1.3</li>
 	</supportedVersions>
-	<description>Allow to filter pens' content by animals' age (baby/juvenile/adult), pregnancy/fertilization and sterilization status, age greater than life expectancy of animals' race</description>
+	<description>Previous mod name: Animals' age filter\n\nAllow to filter pens' content by:\n- animals' age (baby/juvenile/adult);\n- pregnancy/fertilization status;\n- sterilization status;\n- age greater than life expectancy of animals' race;\n- if a pack animal is carrying items</description>
 </ModMetaData>
