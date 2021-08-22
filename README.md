@@ -8,7 +8,12 @@
 
 ![AnimalsAgeFilterExample](https://i.imgur.com/QxpG5MO.png)
 
-A simple QOL mod that allow to filter animals based on their age (baby/juvenile/adult), pregnancy/fertilization and sterilization status
+A simple QOL mod that allow to filter animals's pen content based on
+- their age (baby/juvenile/adult);
+- pregnancy/fertilization status;
+- sterilization status;
+- age greater than life expectancy of animals' race;
+- if a pack animal is carrying items
 
 Steam download: https://steamcommunity.com/sharedfiles/filedetails/?id=2558978295
 
