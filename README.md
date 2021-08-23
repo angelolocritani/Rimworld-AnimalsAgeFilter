@@ -1,10 +1,9 @@
 [![Version](https://img.shields.io/badge/Rimworld-1.3-green.svg)](http://rimworldgame.com/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/angelolocritani/Rimworld-AnimalsAgeFilter)](https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/latest)
 
-# Rimworld-AnimalsAgeFilter
- Animals' age filter mod for Rimworld
+# Rimworld-More filters for animals' pen
 
-![AnimalsAgeFilterPreview](https://i.imgur.com/7MyF9fd.png)
+![AnimalsAgeFilterPreview](https://i.imgur.com/4VgIfXV.png)
 
 ![AnimalsAgeFilterExample](https://i.imgur.com/QxpG5MO.png)
 
