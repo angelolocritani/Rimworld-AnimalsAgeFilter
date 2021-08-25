@@ -3,7 +3,7 @@
 
 # Rimworld-More filters for animals' pen
 
-![AnimalsAgeFilterPreview](https://i.imgur.com/4VgIfXV.png)
+![AnimalsAgeFilterPreview](https://i.imgur.com/ytA1skj.png)
 
 ![AnimalsAgeFilterExample](https://i.imgur.com/QxpG5MO.png)
 

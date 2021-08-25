@@ -14,5 +14,8 @@ Allow to filter pens' content by:
 - pregnancy/fertilization status;
 - sterilization status;
 - age greater than life expectancy of animals' race;
-- if a pack animal is carrying items</description>
+- if a pack animal is carrying items;
+- an immediate or periodic needs for tending;
+- designation for slaughtering
+  </description>
 </ModMetaData>

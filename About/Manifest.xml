@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>MoreFiltersForAnimalsPen</identifier>
-    <version>1.3.0</version>
+    <version>1.4.0</version>
     <showCrossPromotions>true</showCrossPromotions>
     <manifestUri>https://raw.githubusercontent.com/angelolocritani/Rimworld-AnimalsAgeFilter/main/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/latest</downloadUri>

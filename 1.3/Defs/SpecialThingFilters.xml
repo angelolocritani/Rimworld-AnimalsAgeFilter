@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<SpecialThingFilterDef>
+
+  <!-- AGE FILTERS -->
+
+  <SpecialThingFilterDef>
     <defName>AllowStageBaby</defName>
     <label>allow babies</label>
     <description>Allow baby individuals.</description>
@@ -9,8 +12,8 @@
     <saveKey>AllowStageBaby</saveKey>
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageBaby</workerClass>
   </SpecialThingFilterDef>
-  
-  	<SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
     <defName>AllowStageJuvenile</defName>
     <label>allow juveniles</label>
     <description>Allow juvenile individuals.</description>
@@ -19,8 +22,8 @@
     <saveKey>AllowStageJuvenile</saveKey>
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageJuvenile</workerClass>
   </SpecialThingFilterDef>
-  
-  	<SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
     <defName>AllowStageAdult</defName>
     <label>allow adults</label>
     <description>Allow adult individuals.</description>
@@ -30,6 +33,7 @@
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageAdult</workerClass>
   </SpecialThingFilterDef>
 
+  <!-- STERILIZED FILTERS -->
 
   <SpecialThingFilterDef>
     <defName>AllowSterilized</defName>
@@ -52,6 +56,7 @@
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotSterilized</workerClass>
   </SpecialThingFilterDef>
 
+  <!-- PREGNANCY FILTERS -->
 
   <SpecialThingFilterDef>
     <defName>AllowPregnant</defName>
@@ -73,7 +78,9 @@
     <saveKey>AllowNotPregnant</saveKey>
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotPregnant</workerClass>
   </SpecialThingFilterDef>
-  
+
+  <!-- LIFE EXPECTANCY FILTERS -->
+
   <SpecialThingFilterDef>
     <defName>AllowOverLifeExpectancy</defName>
     <label>allow over life expectancy</label>
@@ -95,7 +102,7 @@
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotOverLifeExpectancy</workerClass>
   </SpecialThingFilterDef>
 
-
+  <!-- CARRYING INVENTORY FILTERS -->
 
   <SpecialThingFilterDef>
     <defName>AllowCarrying</defName>
@@ -117,4 +124,49 @@
     <saveKey>AllowNotCarrying</saveKey>
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotCarrying</workerClass>
   </SpecialThingFilterDef>
+
+  <!-- TENDABLE CONDITION FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithTendableCondition</defName>
+    <label>allow with tendable condition</label>
+    <description>Allow individuals with an immediate or periodic need for tending.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithTendableCondition</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithTendeableCondition</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithoutTendableCondition</defName>
+    <label>allow without tendable condition</label>
+    <description>Allow individuals without an immediate or periodic need for tending.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithoutTendableCondition</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithoutTendeableCondition</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- SLAUGHTER FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowShouldBeSlaughtered</defName>
+    <label>allow to be slaughtered</label>
+    <description>Allow individuals designated to be slaughtered.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowShouldBeSlaughtered</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowShouldBeSlaughtered</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotShouldBeSlaughtered</defName>
+    <label>allow not to be slaughtered</label>
+    <description>Allow individuals not designated to be slaughtered.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotShouldBeSlaughtered</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotShouldBeSlaughtered</workerClass>
+  </SpecialThingFilterDef>
+
 </Defs>
