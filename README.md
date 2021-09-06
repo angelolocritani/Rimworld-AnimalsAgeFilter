@@ -13,6 +13,8 @@ A simple QOL mod that allow to filter animals's pen content based on
 - sterilization status;
 - age greater than life expectancy of animals' race;
 - if a pack animal is carrying items
+- an immediate or periodic needs for tending;
+- designation for slaughtering
 
 Steam download: https://steamcommunity.com/sharedfiles/filedetails/?id=2558978295
 
