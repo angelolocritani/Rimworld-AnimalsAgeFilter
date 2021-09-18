@@ -34,4 +34,11 @@
     <content>Added filter for animals needing immediate or periodic tending\nAdded filter for animals designated for slaughtering</content>
     <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.4.0</linkUrl>
   </HugsLib.UpdateFeatureDef>
+  
+    <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>AnimalsAge_1_5_0</defName>
+    <assemblyVersion>1.5.0</assemblyVersion>
+    <content>Added filter for malnourished animals</content>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.5.0</linkUrl>
+  </HugsLib.UpdateFeatureDef>
 </Defs>
