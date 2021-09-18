@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AnimalsAgeFilter
 {
-    static class Utility
+    static class Functions
     {
         // from Verse.HealthUtility
 

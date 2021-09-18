@@ -44,19 +44,25 @@
   <ItemGroup>
     <Compile Include="AnimalsAgeFilterMod.cs" />
     <Compile Include="AgeFilter.cs" />
-    <Compile Include="Slaughter.cs" />
-    <Compile Include="MedicalConditions.cs" />
+    <Compile Include="SlaughterFilter.cs" />
+    <Compile Include="MedicalConditionsFilter.cs" />
     <Compile Include="InventoryFilter.cs" />
     <Compile Include="LifeExpectancyFilter.cs" />
     <Compile Include="PregnancyFilter.cs" />
+    <Compile Include="MalnutrionFilter.cs" />
     <Compile Include="SterilizationFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility.cs" />
+    <Compile Include="Functions.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
       <Version>1.3.3102</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\1.3\Defs\SpecialThingFilters.xml">
+      <Link>SpecialThingFilters.xml</Link>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
