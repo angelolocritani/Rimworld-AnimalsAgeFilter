@@ -45,7 +45,7 @@
       <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
     <defName>AnimalsAge_1_5_1</defName>
     <assemblyVersion>1.5.1</assemblyVersion>
-    <content>fix: disease that hits whole body were ignored by "tendable condition" filter</content>
+    <content>fix: diseases that hit whole body were ignored by "tendable condition" filter</content>
     <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.5.1</linkUrl>
   </HugsLib.UpdateFeatureDef>
 </Defs>
