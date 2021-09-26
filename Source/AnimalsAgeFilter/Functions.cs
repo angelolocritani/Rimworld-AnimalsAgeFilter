@@ -45,9 +45,9 @@ namespace AnimalsAgeFilter
                     }
                     else
                     {
-                        if (hs.GetPartHealth(hediff.Part) > 0f)
+                        if (hediff.Part == null || hs.GetPartHealth(hediff.Part) > 0f)
                         {
-                            //part is not destroyed
+                            //hediff is applied to whole body (part = null) or part is not destroyed
                             return true;
                         }
                         else
