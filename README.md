@@ -15,7 +15,8 @@ A simple QOL mod that allow to filter animals's pen content based on
 - if a pack animal is carrying items;
 - an immediate or periodic needs for tending;
 - designation for slaughtering;
-- malnutrition status
+- malnutrition status;
+- with resources ready to be harvested
 
 ## IMPORTANT NOTES
 
