@@ -192,4 +192,27 @@
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotShouldBeSlaughtered</workerClass>
   </SpecialThingFilterDef>
 
+
+  <!-- HARVESTABLE RESOURCE FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowToBeHarvested</defName>
+    <label>allow with resources ready</label>
+    <description>Allow individuals with resources ready to be harvested.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowToBeHarvested</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowReadyToBeHarvested</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotToBeHarvested</defName>
+    <label>allow without resources ready</label>
+    <description>Allow individuals without resources ready to be harvested.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotToBeHarvested</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotReadyToBeHarvested</workerClass>
+  </SpecialThingFilterDef>
+
 </Defs>

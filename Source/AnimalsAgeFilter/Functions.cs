@@ -70,8 +70,19 @@ namespace AnimalsAgeFilter
             }
 
         }
+
+        public static bool HasGatherableBodyResourceReadyToBeHarvested(this Pawn pawn)
+        {
+            CompHasGatherableBodyResource compHasGatherableBodyResource = pawn.TryGetComp<CompHasGatherableBodyResource>();
+            if (compHasGatherableBodyResource != null)
+            {
+                return compHasGatherableBodyResource.ActiveAndFull;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
     }
 }
-
-
-

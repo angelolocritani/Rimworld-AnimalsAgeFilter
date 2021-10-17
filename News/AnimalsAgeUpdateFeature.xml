@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
-		<defName>AnimalsAgeUpdateFeature</defName>
-		<modNameReadable>More filters for animals' pen</modNameReadable>
-		<modIdentifier>AnimalsAge</modIdentifier>
-		<linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases</linkUrl>
-	</HugsLib.UpdateFeatureDef>
-	
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
-		<defName>AnimalsAge_1_1_0</defName>
-		<assemblyVersion>1.1.0</assemblyVersion>
-		<content>Added filters for pregnancy/fertilization and sterilized status</content>
-		<linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.1.0</linkUrl>
-	</HugsLib.UpdateFeatureDef>
-	
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
-		<defName>AnimalsAge_1_2_0</defName>
-		<assemblyVersion>1.2.0</assemblyVersion>
-		<content>Added filter for animals older than their race's life expectancy</content>
-		<linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.2.0</linkUrl>
-	</HugsLib.UpdateFeatureDef>
-	
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
-		<defName>AnimalsAge_1_3_0</defName>
-		<assemblyVersion>1.3.0</assemblyVersion>
-		<content>Mod renamed in "More filters for animals' pen"\nAdded filter for animals carrying items in inventory</content>
-		<linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.3.0</linkUrl>
-	</HugsLib.UpdateFeatureDef>
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+    <defName>AnimalsAgeUpdateFeature</defName>
+    <modNameReadable>More filters for animals' pen</modNameReadable>
+    <modIdentifier>AnimalsAge</modIdentifier>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases</linkUrl>
+  </HugsLib.UpdateFeatureDef>
+
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>AnimalsAge_1_1_0</defName>
+    <assemblyVersion>1.1.0</assemblyVersion>
+    <content>Added filters for pregnancy/fertilization and sterilized status</content>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.1.0</linkUrl>
+  </HugsLib.UpdateFeatureDef>
+
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>AnimalsAge_1_2_0</defName>
+    <assemblyVersion>1.2.0</assemblyVersion>
+    <content>Added filter for animals older than their race's life expectancy</content>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.2.0</linkUrl>
+  </HugsLib.UpdateFeatureDef>
+
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>AnimalsAge_1_3_0</defName>
+    <assemblyVersion>1.3.0</assemblyVersion>
+    <content>Mod renamed in "More filters for animals' pen"\nAdded filter for animals carrying items in inventory</content>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.3.0</linkUrl>
+  </HugsLib.UpdateFeatureDef>
 
   <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
     <defName>AnimalsAge_1_4_0</defName>
@@ -34,18 +34,25 @@
     <content>Added filter for animals needing immediate or periodic tending\nAdded filter for animals designated for slaughtering</content>
     <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.4.0</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  
-    <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
     <defName>AnimalsAge_1_5_0</defName>
     <assemblyVersion>1.5.0</assemblyVersion>
     <content>Added filter for malnourished animals</content>
     <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.5.0</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  
-      <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
     <defName>AnimalsAge_1_5_1</defName>
     <assemblyVersion>1.5.1</assemblyVersion>
     <content>fix: diseases that hit whole body were ignored by "tendable condition" filter</content>
     <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.5.1</linkUrl>
+  </HugsLib.UpdateFeatureDef>
+
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>AnimalsAge_1_6_0</defName>
+    <assemblyVersion>1.6.0</assemblyVersion>
+    <content>Added filter for animals with resources ready to be harvested</content>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.6.0</linkUrl>
   </HugsLib.UpdateFeatureDef>
 </Defs>

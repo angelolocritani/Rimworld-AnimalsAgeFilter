@@ -16,7 +16,8 @@ Allow to filter pens' content by:
 - age greater than life expectancy of animals' race;
 - if a pack animal is carrying items;
 - an immediate or periodic needs for tending;
-- designation for slaughtering
-- malnutrition status
+- designation for slaughtering;
+- malnutrition status;
+- with resources ready to be harvested
   </description>
 </ModMetaData>

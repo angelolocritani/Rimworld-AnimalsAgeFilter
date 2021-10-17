@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="AnimalsAgeFilterMod.cs" />
     <Compile Include="AgeFilter.cs" />
+    <Compile Include="ResourceFilter.cs" />
     <Compile Include="SlaughterFilter.cs" />
     <Compile Include="MedicalConditionsFilter.cs" />
     <Compile Include="InventoryFilter.cs" />
