@@ -123,6 +123,50 @@
     <saveKey>AllowWithoutTendableCondition</saveKey>
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithoutTendeableCondition</workerClass>
   </SpecialThingFilterDef>
+  
+   <!-- INJURIES CONDITION FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithInjuries</defName>
+    <label>allow with all injuries tended</label>
+    <description>Allow individuals with all injuries tended.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithInjuries</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithInjuries</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithoutInjuries</defName>
+    <label>allow without all injuries tended</label>
+    <description>Allow individuals without all injuries tended.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithoutInjuries</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithoutInjuries</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- PERMANENT INJURIES CONDITION FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithPermanentInjuries</defName>
+    <label>allow with permanent injuries</label>
+    <description>Allow individuals with permanent injuries</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithPermanentInjuries</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithPermanentInjuries</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithoutPermanentInjuries</defName>
+    <label>allow without permanent injuries</label>
+    <description>Allow individuals without permanent injuries</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithoutPermanentInjuries</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithoutPermanentInjuries</workerClass>
+  </SpecialThingFilterDef>
 
   <!-- MALNUTRITION FILTERS -->
 

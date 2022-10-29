@@ -55,4 +55,10 @@
     <content>Added filter for animals with resources ready to be harvested</content>
     <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.6.0</linkUrl>
   </HugsLib.UpdateFeatureDef>
+    <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>AnimalsAge_1_7_0</defName>
+    <assemblyVersion>1.7.0</assemblyVersion>
+    <content>Added filter for animals with all injuries tended\nAdded filter for animals with permanent injuries</content>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.7.0</linkUrl>
+  </HugsLib.UpdateFeatureDef>
 </Defs>

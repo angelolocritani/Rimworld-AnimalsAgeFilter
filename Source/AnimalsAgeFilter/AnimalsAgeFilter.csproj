@@ -34,6 +34,15 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.3|AnyCPU'">
     <OutputPath>..\..\1.3\Assemblies\</OutputPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.4|AnyCPU'">
+    <OutputPath>..\..\1.4\Assemblies\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -57,13 +66,15 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.3.3102</Version>
+      <Version>1.4.3529</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\1.3\Defs\SpecialThingFilters.xml">
-      <Link>SpecialThingFilters.xml</Link>
-    </Content>
+    <None Include="SpecialThingFilters.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(ProjectDir)SpecialThingFilters.xml $(OutDir)..\Defs\
+xcopy /ey "$(TargetDir)..\..\$(ConfigurationName)\" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AnimalsAgeFilter\$(ConfigurationName)"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

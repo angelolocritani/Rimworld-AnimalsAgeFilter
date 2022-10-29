@@ -84,5 +84,30 @@ namespace AnimalsAgeFilter
             }
 
         }
+
+
+        public static bool HasOnlyTendedInjuries(this Pawn pawn)
+        {
+            HediffSet hs = pawn.health.hediffSet;
+
+            List<Hediff> hediff_injuries = hs.hediffs.FindAll(h => h is Hediff_Injury && !(h as Hediff_Injury).IsPermanent()); //not permanent injuries only
+
+            if (hediff_injuries.Count == 0) return false; // there are no not permanent injuries, return immediately
+            {
+                return hediff_injuries.All(h => ((Hediff_Injury)h).IsTended() && ((Hediff_Injury)h).Severity > 0f);
+            }
+        }
+
+
+        public static bool HasPermanentInjuries(this Pawn pawn)
+        {
+            HediffSet hs = pawn.health.hediffSet;
+
+            List<Hediff> hediff_injuries = hs.hediffs.FindAll(h => h is Hediff_Injury && (h as Hediff_Injury).IsPermanent()); // permanent injuries only
+
+            return (hediff_injuries.Count > 0);
+        }
+
     }
 }
+

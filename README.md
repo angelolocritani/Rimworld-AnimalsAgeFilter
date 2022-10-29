@@ -17,6 +17,8 @@ A simple QOL mod that allow to filter animals's pen content based on
 - designation for slaughtering;
 - malnutrition status;
 - with resources ready to be harvested
+- with all injuries tended
+- with permanent injuries
 
 ## IMPORTANT NOTES
 
