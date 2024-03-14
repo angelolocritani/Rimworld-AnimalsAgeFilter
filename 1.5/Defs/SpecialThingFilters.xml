@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- AGE FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowStageBaby</defName>
+    <label>allow babies</label>
+    <description>Allow baby individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowStageBaby</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageBaby</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowStageJuvenile</defName>
+    <label>allow juveniles</label>
+    <description>Allow juvenile individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowStageJuvenile</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageJuvenile</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowStageAdult</defName>
+    <label>allow adults</label>
+    <description>Allow adult individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowStageAdult</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowStageAdult</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- LIFE EXPECTANCY FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowOverLifeExpectancy</defName>
+    <label>allow over life expectancy</label>
+    <description>Allow individuals older than their race's life expectancy.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowOverLifeExpectancy</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowOverLifeExpectancy</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotOverLifeExpectancy</defName>
+    <label>allow under life expectancy</label>
+    <description>Allow individuals younger than their race's life expectancy.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotOverLifeExpectancy</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotOverLifeExpectancy</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- STERILIZED FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowSterilized</defName>
+    <label>allow sterilized</label>
+    <description>Allow sterilized individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowSterilized</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowSterilized</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotSterilized</defName>
+    <label>allow not sterilized</label>
+    <description>Allow not sterilized individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotSterilized</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotSterilized</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- PREGNANCY FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowPregnant</defName>
+    <label>allow pregnant/fertilized</label>
+    <description>Allow pregnant or fertilized individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowPregnant</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowPregnant</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotPregnant</defName>
+    <label>allow not pregnant/fertilized</label>
+    <description>Allow not pregnant or fertilized individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotPregnant</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotPregnant</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- TENDABLE CONDITION FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithTendableCondition</defName>
+    <label>allow with tendable condition</label>
+    <description>Allow individuals with an immediate or periodic need for tending.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithTendableCondition</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithTendeableCondition</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithoutTendableCondition</defName>
+    <label>allow without tendable condition</label>
+    <description>Allow individuals without an immediate or periodic need for tending.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithoutTendableCondition</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithoutTendeableCondition</workerClass>
+  </SpecialThingFilterDef>
+  
+   <!-- INJURIES CONDITION FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithInjuries</defName>
+    <label>allow with all injuries tended</label>
+    <description>Allow individuals with all injuries tended.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithInjuries</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithInjuries</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithoutInjuries</defName>
+    <label>allow without all injuries tended</label>
+    <description>Allow individuals without all injuries tended.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithoutInjuries</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithoutInjuries</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- PERMANENT INJURIES CONDITION FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithPermanentInjuries</defName>
+    <label>allow with permanent injuries</label>
+    <description>Allow individuals with permanent injuries</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithPermanentInjuries</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithPermanentInjuries</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowWithoutPermanentInjuries</defName>
+    <label>allow without permanent injuries</label>
+    <description>Allow individuals without permanent injuries</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowWithoutPermanentInjuries</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowWithoutPermanentInjuries</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- MALNUTRITION FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowMalnourished</defName>
+    <label>allow malnourished</label>
+    <description>Allow malnourished individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowMalnourished</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowMalnourished</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotMalnourished</defName>
+    <label>allow not malnourished</label>
+    <description>Allow not malnourished individuals..</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotMalnourished</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotMalnourished</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- CARRYING INVENTORY FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowCarrying</defName>
+    <label>allow carrying</label>
+    <description>Allow individuals that are carrying items.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowCarrying</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowCarrying</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotCarrying</defName>
+    <label>allow not carrying</label>
+    <description>Allow individuals that not are carrying items.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotCarrying</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotCarrying</workerClass>
+  </SpecialThingFilterDef>
+
+
+
+  <!-- SLAUGHTER FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowShouldBeSlaughtered</defName>
+    <label>allow to be slaughtered</label>
+    <description>Allow individuals designated to be slaughtered.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowShouldBeSlaughtered</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowShouldBeSlaughtered</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotShouldBeSlaughtered</defName>
+    <label>allow not to be slaughtered</label>
+    <description>Allow individuals not designated to be slaughtered.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotShouldBeSlaughtered</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotShouldBeSlaughtered</workerClass>
+  </SpecialThingFilterDef>
+
+
+  <!-- HARVESTABLE RESOURCE FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowToBeHarvested</defName>
+    <label>allow with resources ready</label>
+    <description>Allow individuals with resources ready to be harvested.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowToBeHarvested</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowReadyToBeHarvested</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotToBeHarvested</defName>
+    <label>allow without resources ready</label>
+    <description>Allow individuals without resources ready to be harvested.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotToBeHarvested</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotReadyToBeHarvested</workerClass>
+  </SpecialThingFilterDef>
+
+</Defs>

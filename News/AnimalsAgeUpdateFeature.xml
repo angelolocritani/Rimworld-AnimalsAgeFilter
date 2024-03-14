@@ -61,4 +61,10 @@
     <content>Added filter for animals with all injuries tended\nAdded filter for animals with permanent injuries</content>
     <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.7.0</linkUrl>
   </HugsLib.UpdateFeatureDef>
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>AnimalsAge_1_8_0</defName>
+    <assemblyVersion>1.8.0</assemblyVersion>
+    <content>Updated for Rimworld 1.5</content>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.8.0</linkUrl>
+  </HugsLib.UpdateFeatureDef>
 </Defs>
