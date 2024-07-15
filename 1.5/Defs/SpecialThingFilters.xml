@@ -259,4 +259,26 @@
     <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotReadyToBeHarvested</workerClass>
   </SpecialThingFilterDef>
 
+  <!-- NAMED FILTERS -->
+
+  <SpecialThingFilterDef>
+    <defName>AllowNamed</defName>
+    <label>allow with name</label>
+    <description>Allow named individuals.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNamed</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNamed</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotNamed</defName>
+    <label>allow without name</label>
+    <description>Allow individuals without name.</description>
+    <parentCategory>Animals</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>AllowNotNamed</saveKey>
+    <workerClass>AnimalsAgeFilter.SpecialThingFilterWorker_AllowNotNamed</workerClass>
+  </SpecialThingFilterDef>
+
 </Defs>

@@ -67,4 +67,10 @@
     <content>Updated for Rimworld 1.5</content>
     <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.8.0</linkUrl>
   </HugsLib.UpdateFeatureDef>
+   <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>AnimalsAge_1_9_0</defName>
+    <assemblyVersion>1.9.0</assemblyVersion>
+    <content>Added filter for animals with name</content>
+    <linkUrl>https://github.com/angelolocritani/Rimworld-AnimalsAgeFilter/releases/tag/v1.9.0</linkUrl>
+  </HugsLib.UpdateFeatureDef>
 </Defs>

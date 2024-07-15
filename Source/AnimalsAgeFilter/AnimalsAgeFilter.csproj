@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="AnimalsAgeFilterMod.cs" />
     <Compile Include="AgeFilter.cs" />
+    <Compile Include="NamedFilter.cs" />
     <Compile Include="ResourceFilter.cs" />
     <Compile Include="SlaughterFilter.cs" />
     <Compile Include="MedicalConditionsFilter.cs" />
@@ -72,7 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.5.4034-beta</Version>
+      <Version>1.5.4146-beta</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

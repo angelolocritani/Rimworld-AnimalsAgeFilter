@@ -19,6 +19,7 @@ A simple QOL mod that allow to filter animals's pen content based on
 - with resources ready to be harvested
 - with all injuries tended
 - with permanent injuries
+- with name
 
 ## IMPORTANT NOTES
 
